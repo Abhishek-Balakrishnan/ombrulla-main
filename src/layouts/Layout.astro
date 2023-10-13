@@ -1,0 +1,46 @@
+---
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>
+<style is:global>
+	:root {
+		--primary: #004eff;
+		--secondary: #001a53;
+		--white: #fff;
+	}
+
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	
+	body::-webkit-scrollbar {
+		width: 0.25rem;
+	}
+
+	body::-webkit-scrollbar-track {
+		background: var(--white);
+	}
+
+	body::-webkit-scrollbar-thumb {
+		background: var(--primary);
+	}
+</style>
