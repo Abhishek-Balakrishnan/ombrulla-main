@@ -1,61 +1,22 @@
 const navigation = {
   services: [
-    { name: "AI Service ", href: "#" },
-    { name: "Business Intelligence", href: "#" },
-    { name: "Python Development Company", href: "#" },
-    { name: "AI App Development", href: "#" },
-    { name: "AI in Marketing", href: "#" },
-    { name: "Mobile App Development", href: "#" },
-    { name: "Web Development", href: "#" },
-    { name: "Power BI Services", href: "#" },
-    { name: "AI Web App Development", href: "#" },
-    { name: "Computer Vision", href: "#" },
-
-
+    { name: "AI Infrastructure Inspection", href: "#" },
+    { name: "AI Visual Inspection", href: "#" },
+    { name: "AI Data Analytics", href: "#" },
+    { name: "AI People Tracking", href: "#" },
   ],
   
   solutions: [
-    { name: "Image & Video Analytics", href: "#" },
-    { name: "Computer Vision Retail Analytics", href: "#" },
-    { name: "Route Planning & Optimisation", href: "#" },
-    { name: "Automatics Data Extraction", href: "#" },
-    { name: "Kiosk & Shop Monitoring", href: "#" },
-    { name: "Window Display Effectivenes", href: "#" },
-    { name: "AI to Improve Customer Experience", href: "#" },
-
+    { name: "Asset Performance Management", href: "#" },
+    { name: "Job Grading & Evaluation", href: "#" },
+    { name: "Compensation Management", href: "#" },
   ],
 
   addresses: [
-    {
-      country: "United Kingdom",
-      street: "53 Denton close",
-      city: "Redhill",
-      state: "Surrey",
-      postalCode: "RH1 5LB",
-      phone: "+44 787 999 3892"
-    },
-    {
-      country: "Germany",
-      street: "Schützenstraße 51A",
-      city: "Lübeck",
-      state: null,
-      postalCode: "23558",
-      phone: "+49 179 512 5812"
-    },
-    {
-      country: "India",
-      street: "No. 154/20, Royal Space, Third Floor TI, 5th Main, HSR Layout 7th Sector",
-      city: "Bangalore",
-      state: "Karnataka",
-      postalCode: "560102",
-      phone: null
-    }
+    { name: "UK Address", href: "#" },
+    { name: "JBangalore Address", href: "#" },
   ],
-   Industry: [
-    { name: "Transportation and Logistics", href: "#" },
-    { name: "Retail and Supply Chain", href: "#" },
-    { name: "Education and Learning", href: "#" },
-  ],
+  
   
   social: [
     {
@@ -133,8 +94,7 @@ export default function Example() {
           <div className="space-y-8 ">
             <h3 className="text-lg	">About Us</h3>
             <p className="text-sm leading-6">
-            We are a team of dedicated professionals who provide a range of AI services to help businesses and organizations leverage the power of artificial intelligence and machine learning.
-
+            The majority of customers lack data-driven insights and automation. Using AI, Ombrulla assist clients in extracting data from diverse sources such as photos, videos, and data lakes, which can assist businesses in making data-driven insights and improving their bottom line
 
             </p>
             <div className="flex space-x-6">
@@ -168,61 +128,74 @@ export default function Example() {
                 </ul>
               </div>
             </div>
-            <div className="mt-  md:mt-">
-              <h3 className="text-lg font-semibold leading-6 ">Our Solutions</h3>
-              <ul role="list" className="mt-6 space-y-4">
-                {navigation.solutions.map((item) => (
-                  <li key={item.name}>
-                    <a
-                      href={item.href}
-                      className="text-sm leading-6  hover:text-gray-900"
-                    >
-                      {item.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-              <div className="mt-10 md:mt-10">
-              <h3 className="text-lg font-semibold leading-6 ">Our Industry</h3>
-              <ul role="list" className="mt-6 space-y-4">
-                {navigation.Industry.map((item) => (
-                  <li key={item.name}>
-                    <a
-                      href={item.href}
-                      className="text-sm leading-6  hover:text-gray-900"
-                    >
-                      {item.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            </div>
-
-            <div className=" md:gap-8">
-              <div>
-                <h3 className="text-lg font-semibold leading-6 ">Reach Us</h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.addresses.map((item) => (
-                    <li key={item.href}>
-                      <a
-                        href={item.href}
-                        className="text-sm leading-6  hover:text-white-300"
-                      >
-                        <p>{item.country}</p>
-                        <p>{item.street}</p>
-                        <p>{item.city}</p>
-                        <p>{item.postalCode}</p>
-                        <p>{item.phone}</p>
-
-                        
-                      </a> 
-                      
-                    </li>
-                  ))}
-                </ul>
+     <div className="col-span-2 ">
+              <div className="grid-cols-2	flex gap-28" >
+                <div className="mt-  md:mt- ">
+                  <h3 className="text-lg font-semibold leading-6 ">Our Solutions</h3>
+                  <ul role="list" className="mt-6 space-y-4">
+                    {navigation.solutions.map((item) => (
+                      <li key={item.name}>
+                        <a
+                          href={item.href}
+                          className="text-sm leading-6  hover:text-gray-900"
+                        >
+                          {item.name}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                 
+                </div>
+    
+                <div className=" md:gap-8">
+                  <div>
+                    <h3 className="text-lg font-semibold leading-6 ">Reach Us</h3>
+                    <ul role="list" className="mt-6 space-y-4">
+                      {navigation.addresses.map((item) => (
+                        <li key={item.name}>
+                          <a
+                            href={item.href}
+                            className="text-sm leading-6  hover:text-white-300"
+                          >
+                            <p>{item.name}</p>
+                           
+    
+                            
+                          </a> 
+                          
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
               </div>
-            </div>
+                
+              </div>
+              <div className="col-span-4 flex justify-end mr-36 mt-5">
+              <form className="mt-6 sm:flex sm:max-w-md">
+                <label htmlFor="email-address" className="sr-only">
+                  Email address
+                </label>
+                <input
+                  type="email"
+                  name="email-address"
+                  id="email-address"
+                  autoComplete="email"
+                  required
+                  className="w-full min-w-0 appearance-none rounded-md border-gray-300 bg-white px-[calc(theme(spacing.3)-1px)] py-[calc(theme(spacing[1.5])-1px)] text-base leading-7 text-gray-900 placeholder-gray-400 shadow-sm focus:border-indigo-600 focus:ring-indigo-600 sm:w-64 sm:text-sm sm:leading-6 xl:w-96"
+                  placeholder="Enter your email"
+                />
+                <div className="mt-4 rounded-md sm:mt-0 sm:ml-4 sm:flex-shrink-0">
+                  <button
+                    type="submit"
+                    className="flex w-full items-center justify-center rounded-md bg-indigo-600 py-1.5 px-3 text-base font-semibold leading-7 text-white hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:text-sm sm:leading-6"
+                  >
+                    Free Consultation
+                  </button>
+                </div>
+              </form>
+           </div>
+     </div>
+            
           </div>
         </div>
         <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">

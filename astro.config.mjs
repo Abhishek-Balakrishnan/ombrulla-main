@@ -8,5 +8,5 @@ import react from "@astrojs/react";
 export default defineConfig({
   integrations: [tailwind(), react()],
   site: 'https://Abhishek-Balakrishnan.github.io',
-  base: '/ombrulla-main',
+  // base: '/ombrulla-main',
 });

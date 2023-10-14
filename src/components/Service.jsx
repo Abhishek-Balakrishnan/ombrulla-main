@@ -26,9 +26,13 @@ export default function Example() {
             <div className=" mt- grid max-w-fit grid-cols-1  gap-y- gap-x- sm:max-w-none lg:grid-cols-3">
             <div className="text-center sm:flex sm:text-left lg:block  ">
                   <div className="sm:flex-shrink-0 ">
-                    <div className="flow-root ml-10 font-medium	leading-4		text-sm	">
-                      <h3>Product</h3>
-                    </div>
+                  <div className="flex ml-10" >
+       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0000FF" class="w-3 h-3 mt-11">
+    <path fill-rule="evenodd" d="M4.5 7.5a3 3 0 013-3h9a3 3 0 013 3v9a3 3 0 01-3 3h-9a3 3 0 01-3-3v-9z" clip-rule="evenodd" />
+  </svg>
+  
+          <h4 className=" text-base font-medium mt-10 ml-2	">Products</h4>
+    </div>
                   </div>
                   <div className="mt-3 sm:mt-0 sm:ml-6 lg:mt-6 lg:ml-9 ">
                     <h3 className="text-5xl	 font-medium leading-4 text-gray-900 ">OUR HR TOOLS <br /><br /></h3>
