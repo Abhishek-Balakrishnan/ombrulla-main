@@ -18,30 +18,30 @@ export default function Example() {
             <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
               <img
                 className="max-h-12"
-                src="partner-1.jpg"
+                src="partner-1.png"
                 alt="Workcation"
               />
             </div>
             <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-              <img className="max-h-12" src="partner-2.jpg" alt="Mirage" />
+              <img className="max-h-12" src="partner-2.png" alt="Mirage" />
             </div>
             <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-              <img className="max-h-12" src="partner-3.jpg" alt="Tuple" />
+              <img className="max-h-12" src="partner-3.png" alt="Tuple" />
             </div>
             <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-              <img className="max-h-12" src="partner-4.jpg" alt="Laravel" />
+              <img className="max-h-12" src="partner-4.png" alt="Laravel" />
             </div>
             <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
               <img
                 className="max-h-12  "
-                src="partner-5.jpg"
+                src="partner-5.png"
                 alt="StaticKit"
               />
             </div>
             <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
               <img
                 className="max-h-12"
-                src="partner-6.jpg"
+                src="partner-6.png"
                 alt="Statamic"
               />
             </div>
