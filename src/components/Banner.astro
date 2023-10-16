@@ -17,15 +17,19 @@
             Schedule Call
         </button>
         </div>
-        <div class="w-1/2">
-            <div class="container">
-                <img
-                    class="image-mask"
-                    src="https://i.ibb.co/L605mPL/man-with-helmet-working-logistic-fotor-20231016104639.png"
-                    alt="Manual work is slow and error prone"
-                    width="80%"
-                    height="80%"
-                />
+        <div class="slider-thumb2">
+            <div class="slider-thumb">
+                <div class="w-1/2">
+                    <div class="container">
+                        <img
+                            class="image-mask"
+                            src="https://i.ibb.co/L605mPL/man-with-helmet-working-logistic-fotor-20231016104639.png"
+                            alt="Manual work is slow and error prone"
+                            width="80%"
+                            height="80%"
+                        />
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -57,4 +61,75 @@
         -webkit-mask-image: url(https://abhishek-balakrishnan.github.io/ombrulla-main/mask-banner.png);
         mask-image: url(https://abhishek-balakrishnan.github.io/ombrulla-main/mask-banner.png);
     }
+
+.slider-thumb::before {
+  position: absolute;
+  content: "";
+  left: 51%;
+  top: 17%;
+  width: 450px;
+  height: 450px;
+  background: ;
+  border: 2px solid rgb(37, 39, 173);
+  border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
+  will-change: border-radius, transform, opacity;
+  animation: sliderShape 5s linear infinite;
+  display: block;
+  z-index: -1;
+  -webkit-animation: sliderShape 5s linear infinite;
+}
+@keyframes sliderShape{
+  0%,100%{
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  34%{
+      border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform:  translate3d(0,5px,0) rotateZ(0.01deg);
+  }
+  50%{
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  67%{
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60% ;
+    transform: translate3d(0,-3px,0) rotateZ(0.01deg);
+  }
+}
+
+
+.slider-thumb2::before {
+  position: absolute;
+  content: "";
+  left: 60%;
+  top: 14%;
+  width: 450px;
+  height: 450px;
+  background: ;
+  border: 2px solid rgb(252, 252, 252);
+  border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
+  will-change: border-radius, transform, opacity;
+  animation: sliderShape 5s linear infinite;
+  display: block;
+  z-index: -1;
+  -webkit-animation: sliderShape 5s linear infinite;
+}
+@keyframes sliderShape{
+  0%,100%{
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  34%{
+      border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform:  translate3d(0,5px,0) rotateZ(0.01deg);
+  }
+  50%{
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  67%{
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60% ;
+    transform: translate3d(0,-3px,0) rotateZ(0.01deg);
+  }
+}
+
+
 </style>

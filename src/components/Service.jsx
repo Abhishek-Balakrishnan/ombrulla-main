@@ -57,9 +57,9 @@ retain, and engage top talent <br /><br /> <br /></p>
                   </div>
                   <div className="w-[9.5rem] ml-[25%]"><img src={incentive.imageSrc} alt="" className="" /></div>
                   <button
-            class="bg-primary hover:bg-transparent text-white font-sans  ml-[28%] font-semibold hover:text-primary py-2 px-4 border border-primary hover:border-secoondary rounded-xl w-30"
+            class="bg-[#fffff] hover:bg-black text-primary   font-sans  ml-[30%] font-bold hover:text-white py-2 px-4 border  hover:border-secoondary rounded-full	 w-30"
         >
-            Schedule Call
+            Free Trail
         </button>
                 </div>
               ))}
