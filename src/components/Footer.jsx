@@ -12,11 +12,40 @@ const navigation = {
     { name: "Compensation Management", href: "#" },
   ],
 
+  // addresses: [
+  //   { name: "UK Address", href: "#" },
+  //   { name: "JBangalore Address", href: "#" },
+  // ],
   addresses: [
-    { name: "UK Address", href: "#" },
-    { name: "JBangalore Address", href: "#" },
+    {
+      country: "United Kingdom",
+      street: "53 Denton close",
+      city: "Redhill",
+      state: "Surrey",
+      postalCode: "RH1 5LB",
+      phone: "+44 787 999 3892",
+      href:"#"
+    },
+    {
+      country: "Germany",
+      street: "Schützenstraße 51A",
+      city: "Lübeck",
+      state: null,
+      postalCode: "23558",
+      phone: "+49 179 512 5812",
+      href:"#"
+    },
+    // {
+    //   country: "India",
+    //   street: "No. 154/20, Royal Space, Third Floor TI, 5th Main, HSR Layout 7th Sector",
+    //   city: "Bangalore",
+    //   state: "Karnataka",
+    //   postalCode: "560102",
+    //   phone: null,
+    //   href:"#"
+    // }
   ],
-  
+
   
   social: [
     {
@@ -152,12 +181,17 @@ export default function Example() {
                     <h3 className="text-lg font-semibold leading-6 ">Reach Us</h3>
                     <ul role="list" className="mt-6 space-y-4">
                       {navigation.addresses.map((item) => (
-                        <li key={item.name}>
+                        <li key={item.country}>
                           <a
                             href={item.href}
                             className="text-sm leading-6  hover:text-white-300"
                           >
-                            <p>{item.name}</p>
+                            <p>{item.country}</p>
+                            <p>{item.street}</p>
+                            <p>{item.city}</p>
+                            <p>{item.postalCode}</p>
+                            <p>{item.phone}</p>
+
                            
     
                             

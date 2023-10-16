@@ -65,7 +65,7 @@ export default function Example() {
   
           <h4 className=" text-base font-medium mt-10 ml-2	">Our Testimonials</h4>
     </div>
-        <h2 className="font-medium	text-3xl mt-5">About Our Customer Stories</h2>
+        <h2 className="font-medium	text-3xl mt-5">What Customer Say About Us</h2>
      </div>
       <div className="mx-auto max-w-7xl h- md:grid md:grid-cols-2 md:px-6 lg:px-8 py-10 ">
         

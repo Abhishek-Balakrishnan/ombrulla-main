@@ -100,14 +100,14 @@ const services = [
 
 <Layout title="Ombrulla">
 	<!-- <Navbar/> -->
-	<div class="grid row-auto h-screen">
-		<div class="px-[10vw]">
+	<div class="grid row-auto h-screen ">
+		<div class="px-[6vw]">
 			<div><Menu /></div>
 			<div><Banner /></div>
 		</div>
 		<div><Content /></div>
 		{services.map((d, i) => <ServiceCard index={i} {...d} />)}
-		<div class="mt-32"><Service /></div>
+		<div class="mt-"><Service /></div>
 		<div><Product /></div>
 		<div><Customers /></div>
 		<div><Testimonials /></div>

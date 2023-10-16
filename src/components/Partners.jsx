@@ -18,30 +18,30 @@ export default function Example() {
             <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
               <img
                 className="max-h-12"
-                src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg"
+                src="partner-1.jpg"
                 alt="Workcation"
               />
             </div>
             <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-              <img className="max-h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage" />
+              <img className="max-h-12" src="partner-2.jpg" alt="Mirage" />
             </div>
             <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-              <img className="max-h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple" />
+              <img className="max-h-12" src="partner-3.jpg" alt="Tuple" />
             </div>
             <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-              <img className="max-h-12" src="https://tailwindui.com/img/logos/laravel-logo-gray-400.svg" alt="Laravel" />
+              <img className="max-h-12" src="partner-4.jpg" alt="Laravel" />
             </div>
             <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
               <img
-                className="max-h-12"
-                src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg"
+                className="max-h-12  "
+                src="partner-5.jpg"
                 alt="StaticKit"
               />
             </div>
             <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
               <img
                 className="max-h-12"
-                src="https://tailwindui.com/img/logos/statamic-logo-gray-400.svg"
+                src="partner-6.jpg"
                 alt="Statamic"
               />
             </div>

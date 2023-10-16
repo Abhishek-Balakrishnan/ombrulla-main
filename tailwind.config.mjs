@@ -1,10 +1,11 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
 export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
 		extend: {
 			fontFamily: {
-				'space-grotesk': ['"Space Grotesk"', 'sans-serif'],
+				'sans': ['Outfit', ...defaultTheme.fontFamily.sans],
 			  },
 			  colors:{
 				'bodycolor':'#f8fbff',

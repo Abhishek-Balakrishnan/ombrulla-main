@@ -14,18 +14,18 @@ interface Feature {
 
 const { index, title, subTitle, features,imgUrl } = Astro.props;
 const alignment = index % 2 ? `md:flex-row-reverse` : `md:flex-row`;
-const firstImageMargin = index % 2 ? `-mr-8` : `-mr-64`;
-const secondImageMargin = index % 2 ? `-ml-96` : `-ml-64`;
+const firstImageMargin = index % 2 ? `-ml-10 mt-10` : `-mr-5 mt-10`;
+// const secondImageMargin = index % 2 ? `-ml-96` : `-ml-64`;
 ---
 
 <div
-    class=`relative flex flex-col ${alignment} h-screen justify-around px-[10vw]`
+    class=`relative flex flex-col ${alignment} h-screen justify-around px-[6vw]`
 >
-    <div class="basis-1/3 flex flex-col pt-[10vh] gap-y-5">
-        <h3 class="font-bold font-space-grotesk text-2xl">
+    <div class="basis-1/2 flex flex-col pt-[10vh] gap-y-5">
+        <h3 class="font-bold font-sans text-sm">
             {subTitle}
         </h3>
-        <h2 class="text-4xl font-normal leading-tight">
+        <h2 class="text-5xl font-medium leading-tight">
             {title}
         </h2>
         <ul class="list-disc text-slate-400 ml-4">
@@ -39,16 +39,16 @@ const secondImageMargin = index % 2 ? `-ml-96` : `-ml-64`;
             }
         </ul>
         <button
-            class="bg-primary hover:bg-transparent text-white font-space-grotesk font-semibold hover:text-primary py-2 px-4 border border-primary hover:border-secoondary rounded w-40"
+            class="bg-primary hover:bg-transparent text-white font-sans font-semibold hover:text-primary py-2 px-4 border border-primary hover:border-secoondary rounded w-40"
         >
             Schedule Call
         </button>
     </div>
-    <div class="basis-2/3 flex items-center justify-center">
+    <div class="basis-1/2 flex items-center justify-center ">
         <img
             src={imgUrl}
             alt=""
-            class=`absolute z-10 ${firstImageMargin} h-[80vh] w-[35vw]`
+            class=`absolute z-10 ${firstImageMargin} h-[70vh] w-[35vw] rounded-lg`
         />
         <!-- <div class="mr-32">
             <img
