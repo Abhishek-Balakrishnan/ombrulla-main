@@ -37,13 +37,25 @@ Internet of Things for data-driven decision-making and proactive maintenance
 strategies.
 
               </p>
-              <button
-        type="button"
-        className="inline-flex items-center rounded-3xl	mt-3 border border-white bg-blue-700 px-6 py-3 text-base font-medium text-white  hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-      >
-        <PlayIcon className="-ml-1 mr-3 h-5 w-5" aria-hidden="true" />
-        Video Showcase
-      </button>
+            <div class="flex">
+                <div>
+                  <button
+            type="button"
+            className="inline-flex items-center rounded-3xl	mt-3 border border-white bg-blue-700 px-6 py-3 text-base font-medium text-white  hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+          >
+            <PlayIcon className="-ml-1 mr-3 h-5 w-5" aria-hidden="true" />
+            Video Showcase
+          </button>
+                </div>
+        <div>
+          <button
+                        type="submit"
+                        className="flex w-26 items-center justify-center rounded-md border border-white bg-transparent py-1.5 px-3 ml-4 mt-4 text-base font-semibold leading-7 text-white hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:text-sm sm:leading-6"
+                      >
+                        Get Demmo
+                      </button>
+        </div>
+            </div>
               {/* <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
                   <div key={feature.name} className="relative pl-9">

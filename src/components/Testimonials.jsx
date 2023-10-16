@@ -56,7 +56,7 @@
 
 export default function Example() {
   return (
-    <section className="bg-blue-950	 h-7xl p-5">
+    <section className="bg-blue-950	 h-7xl p-5 font-sans">
      <div className="ml-16 text-white ">
     <div className="flex" >
        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0000FF" class="w-4 h-4 mt-11">

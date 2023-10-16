@@ -1,12 +1,12 @@
 const incentives = [
   {
     name: 'Job Grading & Evaluation',
-    imageSrc: 'https://static.wixstatic.com/media/3cca7a_856f4a34…o/3cca7a_856f4a342a004972a45e9beeb7d0da5c~mv2.png',
+    imageSrc: 'job-profiler.png',
     description: "Our job evaluation and grading tool assesses and ranks job roles within an organization based on factors like responsibilities and skills, typically for compensation and organizational structuring.",
   },
   {
     name: 'Compensation Management',
-    imageSrc: 'https://static.wixstatic.com/media/3cca7a_856f4a34…o/3cca7a_856f4a342a004972a45e9beeb7d0da5c~mv2.png',
+    imageSrc: 'comp-man.png',
     description: "Software systems used by HR departments to streamline and automate the processes related to employee compensation, including salary planning, bonuses, benefits, and overall compensation strategy management.",
   },
   // {
@@ -19,7 +19,7 @@ const incentives = [
 
 export default function Example() {
   return (
-    <div className="px-[]">
+    <div className="px-[] font-sans">
       <div className="   px-[] py-24 sm:px- lg:px-">
         <div className=" px-[vh]  h-[32rem]   py-16 ">
           <div className="mx-auto max-w-xl lg:max-w-none">
@@ -55,6 +55,12 @@ retain, and engage top talent <br /><br /> <br /></p>
                   <div>
                   <p className="mt-2 text-base	leading-6	 text-gray-500 ">{incentive.description}</p>
                   </div>
+                  <div className="w-[9.5rem] ml-[25%]"><img src={incentive.imageSrc} alt="" className="" /></div>
+                  <button
+            class="bg-primary hover:bg-transparent text-white font-sans  ml-[28%] font-semibold hover:text-primary py-2 px-4 border border-primary hover:border-secoondary rounded-xl w-30"
+        >
+            Schedule Call
+        </button>
                 </div>
               ))}
             </div>

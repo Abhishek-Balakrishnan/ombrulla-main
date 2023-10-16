@@ -114,15 +114,15 @@ const navigation = {
 
 export default function Example() {
   return (
-    <footer className="bg-black text-white" aria-labelledby="footer-heading">
+    <footer className="bg-[#04102a] text-[#8A99B4]" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
       <div className="mx-auto x max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-4 xl:gap-8 ">
           <div className="space-y-8 ">
-            <h3 className="text-lg	">About Us</h3>
-            <p className="text-sm leading-6">
+            <h3 className="leading-7	 font-medium	text-2xl	text-white	">About Us</h3>
+            <p className="text-base	font-normal	 leading-7">
             The majority of customers lack data-driven insights and automation. Using AI, Ombrulla assist clients in extracting data from diverse sources such as photos, videos, and data lakes, which can assist businesses in making data-driven insights and improving their bottom line
 
             </p>
@@ -131,7 +131,7 @@ export default function Example() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="hover:text-gray-500"
+                  className="hover:text-gray-500 text-white"
                 >
                   <span className="sr-only">{item.name}</span>
                   <item.icon className="h-6 w-6" aria-hidden="true" />
@@ -142,13 +142,13 @@ export default function Example() {
           <div className="mt-16  gap-8  xl:mt-0">
             <div className="md:grid  md:gap-8">
               {/* <div> */}
-                <h3 className="text-lg font-semibold		 leading-6 ">Our Services</h3>
+                <h3 className="leading-7	 font-medium	text-2xl text-white ">Our Services</h3>
                 <ul role="list" className="mt- space-y-4">
                   {navigation.services.map((item) => (
-                    <li key={item.name}>
+                    <li key={item.name} >
                       <a
                         href={item.href}
-                        className="text-sm leading-6  hover:text-gray-900"
+                        className="text-base leading-7  "
                       >
                         {item.name}
                       </a>
@@ -160,13 +160,13 @@ export default function Example() {
      <div className="col-span-2 ">
               <div className="grid-cols-2	flex gap-28" >
                 <div className="mt-  md:mt- ">
-                  <h3 className="text-lg font-semibold leading-6 ">Our Solutions</h3>
+                  <h3 className="leading-7	 font-medium	text-2xl text-white ">Our Solutions</h3>
                   <ul role="list" className="mt-6 space-y-4">
                     {navigation.solutions.map((item) => (
-                      <li key={item.name}>
+                      <li key={item.name} className="">
                         <a
                           href={item.href}
-                          className="text-sm leading-6  hover:text-gray-900"
+                          className="text-base leading-7   "
                         >
                           {item.name}
                         </a>
@@ -178,13 +178,13 @@ export default function Example() {
     
                 <div className=" md:gap-8">
                   <div>
-                    <h3 className="text-lg font-semibold leading-6 ">Reach Us</h3>
+                    <h3 className="leading-7	 font-medium	text-2xl text-white">Reach Us</h3>
                     <ul role="list" className="mt-6 space-y-4">
                       {navigation.addresses.map((item) => (
                         <li key={item.country}>
                           <a
                             href={item.href}
-                            className="text-sm leading-6  hover:text-white-300"
+                            className="text-base leading-7   hover:text-white-300"
                           >
                             <p>{item.country}</p>
                             <p>{item.street}</p>
@@ -234,7 +234,7 @@ export default function Example() {
         </div>
         <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
           <p className="text-xs leading-5 text-gray-500">
-            &copy; 2020 Your Company, Inc. All rights reserved.
+            &copy; 2020 Ombrulla, Inc. All rights reserved.
           </p>
         </div>
       {/* </div> */}
