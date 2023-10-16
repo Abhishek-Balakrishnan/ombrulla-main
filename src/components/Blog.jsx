@@ -72,18 +72,13 @@ const posts = [
           <div className=" mt-12 grid gap-16 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
             {posts.map((post) => (
               <div key={post.title} className="bg-white p-5 rounded-lg">
-                <div >
-                  <a href={post.category.href} className="inline-block">
-                    <span
-                      className={
-                        'inline-flex items-center px-3  py-0.5 rounded-lg text-sm font-medium'
-                      }
-                    >
-                        <img src={post.category.imageUrl} alt=""className="w-[31.25rem] h-[21.25rem]" />
-                      
-                    </span>
-                  </a>
-                </div>
+                <div className="inline-block">
+  <span className="inline-flex items-center px-3 py-0.5 rounded-lg text-sm font-medium">
+    <div className="w-70 h-60 overflow-hidden rounded-lg">
+      <img src={post.category.imageUrl} alt="" className="w-full h-full object-cover" />
+    </div>
+  </span>
+</div>
                 <a href={post.href} className="mt-4 block">
                   <p className="text-xl font-semibold text-gray-900">{post.title}</p>
                   <p className="mt-3 text-base text-gray-500">{post.description}</p>
