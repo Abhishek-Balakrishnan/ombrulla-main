@@ -2,7 +2,7 @@ const incentives = [
   {
     name: 'Job Grading & Evaluation',
     imageSrc: 'job-profiler.png',
-    description: "Our job evaluation and grading tool assesses and ranks job roles within an organization based on factors like responsibilities and skills, typically for compensation and organizational structuring.",
+    description: "Job evaluation assesses and ranks job roles in an organization based on responsibilities and skills, often for compensation and structuring purposes.",
     button:"Free Trail"
   },
   {
@@ -62,7 +62,7 @@ export default function Example() {
         >
             Free Trail
         </button> */}
-        <div className="flex"><div><a href="http://" className="text-base	font-medium">{incentive.button}</a></div>
+        <div className="flex"><div><a href="http://" className="text-base	font-medium" class={incentive.button === "Free Trail" ? " mb-10" : ""}>{incentive.button}</a></div>
        <div>
            <svg xmlns="http://www.w3.org/2000/svg" fill="#0000FF" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 font-bold text-[#0000FF]">
     <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />

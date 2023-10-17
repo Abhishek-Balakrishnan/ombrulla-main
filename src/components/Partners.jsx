@@ -1,13 +1,13 @@
 export default function Example() {
   return (
-    <div className="bg-white">
-      <div className="mx-auto max-w-7xl py-12 px-6 lg:py-16 lg:px-8">
+    <div className="bg-white py-24">
+      <div className="mx-auto max-w-7xl  px-6 lg:py-16 lg:px-8">
         <div className="flex justify-center">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0000FF" className="w-3 h-3 mt-10">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0000FF" className="w-3 h-3 mt-1">
             <path fillRule="evenodd" d="M4.5 7.5a3 3 0 013-3h9a3 3 0 013 3v9a3 3 0 01-3 3h-9a3 3 0 01-3-3v-9z" clipRule="evenodd" />
           </svg>
-          <h4 className="text-center text-sm font-medium mt-9 font-sans mb-[1.125rem] p- mx-2">BRANDS WE WORK WITH</h4>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0000FF" className="w-3 h-3 mt-10">
+          <h4 className="text-center text-sm font-medium mt- font-sans mb-[1.125rem] p- mx-2">BRANDS WE WORK WITH</h4>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0000FF" className="w-3 h-3 mt-1">
             <path fillRule="evenodd" d="M4.5 7.5a3 3 0 013-3h9a3 3 0 013 3v9a3 3 0 01-3 3h-9a3 3 0 01-3-3v-9z" clipRule="evenodd" />
           </svg>
         </div>

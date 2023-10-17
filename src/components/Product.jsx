@@ -22,7 +22,7 @@ import { PlayIcon } from '@heroicons/react/24/solid';
 
 export default function Example() {
   return (
-    <div className="overflow-hidden bg-blue-700	 py-16 sm:py-16">
+    <div className="overflow-hidden bg-blue-700	 py- sm:py-">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
@@ -54,7 +54,7 @@ export default function Example() {
             <PlayIcon className="h-7 w-7" aria-hidden="true" />
           </button>
           </div>
-          <div class="ml-5 font-medium text-white	text-base	font-sans mt-4" >Watch Video</div>
+          <div class="ml-5 font-medium text-white	text-base	font-sans mt-4 mb-20" >Watch Video</div>
            </div>
               {/* <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
@@ -72,7 +72,7 @@ export default function Example() {
           <img
             src="petranGroup-1.png"
             alt="Product screenshot"
-            className="w-[42.813rem] max-w-none rounded-xl   sm:w-[42.813] md:-ml- lg:-ml-10"
+            className="w-[42.813rem] max-w-none rounded-xl   sm:w-[42.813] md:-ml- lg:-ml-10 mt-5"
             width={2432}
             height={1442}
           />

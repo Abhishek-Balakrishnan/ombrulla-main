@@ -58,15 +58,15 @@ const posts = [
         <div className="relative mx-auto max-w-lg divide-y-2 divide-gray-200 lg:max-w-7xl">
           <div className="text-center  	">
           <div className="flex justify-center">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0000FF" class="w-3 h-3 mt-11">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0000FF" class="w-3 h-3 mt-1">
       <path fill-rule="evenodd" d="M4.5 7.5a3 3 0 013-3h9a3 3 0 013 3v9a3 3 0 01-3 3h-9a3 3 0 01-3-3v-9z" clip-rule="evenodd" />
     </svg>
-              <h3 className="text-center text-sm	font-medium mt-8 p-2	">BLOG UPDATES</h3>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0000FF" class="w-3 h-3 mt-11">
+              <h3 className="text-center text-sm font-medium mt- font-sans mb-[1.125rem] p- mx-2	">BLOG UPDATES</h3>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0000FF" class="w-3 h-3 mt-1">
       <path fill-rule="evenodd" d="M4.5 7.5a3 3 0 013-3h9a3 3 0 013 3v9a3 3 0 01-3 3h-9a3 3 0 01-3-3v-9z" clip-rule="evenodd" />
     </svg>
     </div>
-            <h2 className="text-5xl font-bold tracking-tight text-gray-900 sm:text-5xl mt-5 ">Latest News Posts</h2>
+            <h2 className="text-5xl font-medium text-center  font-sans tracking-tight mb-[1.125rem] ">To Read</h2>
             
           </div>
           <div className=" mt-12 grid gap-16 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
