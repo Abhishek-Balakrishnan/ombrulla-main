@@ -1,21 +1,41 @@
+---
+import { PlayIcon } from "@heroicons/react/20/solid";
+
+---
+
+<!-- import { PlayIcon } from '@heroicons/react/24/solid'; -->
+
 <div class="h-[90vh]">
     <div class="flex justify-between grid-col-2 h-full items-center">
-        <div class="w-1/2">
-            <h4 class="text-6xl font-sans font-semibold	">
-                Manual Inspection is <span class="text-primary font-normal	">
-                    Slow & Error-Prone</span
-                >
+        <div class="w-1/2 gap-y-10">
+            <h4 class="text-6xl font-sans font-semibold w-[28.25rem] leading-[1.2]		">
+                Manual Inspection is 
             </h4>
+            <span class="text-primary font-normal w- text-6xl font-sans leading-[1.2]  	">
+              Slow & Error-Prone</span>
             <p
-                class="mt-10 font-normal text-lg leading-6 text-slate-500 font-sans"
+                class="mt-10 font-normal text-lg leading-6 text-[#82858d]  font-sans leading-[1.6] mb-10"
             >
-                AI-driven computer vision for precise Quality Inspection
-            </p>
+            AI-driven computer vision transforms manufacturing quality inspection, boosting precision and cost-efficiency while upholding product excellence.</p>            
+           <div class="flex">
+             <div>
+                <button
+                class="bg-primary leading-5	text-base	 hover:bg-transparent text-white font-sans font-semibold hover:text-primary py-2 px-4 border border-primary hover:border-secoondary  w-40 h-[3.5rem]"
+                style={{borderRadius:'30px',}}
+            >
+                Schedule Call
+            </button>
+             </div>
+          <div>
             <button
-            class="bg-primary hover:bg-transparent text-white font-sans font-semibold hover:text-primary py-2 mt-10 px-4 border border-primary hover:border-secoondary rounded w-40"
-        >
-            Schedule Call
-        </button>
+            type="button"
+            class="ml-10 h-[3.5rem] w-[3.5rem]  inline-flex items-center rounded-full border border-transparent bg-primary p-3 text-white hover:text-primary shadow-sm hover:bg-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+          >
+            <PlayIcon className="h-7 w-7" aria-hidden="true" />
+          </button>
+          </div>
+          <div class="ml-5 font-medium	text-base	font-sans mt-4" >Watch Video</div>
+           </div>
         </div>
         <div class="slider-thumb2">
             <div class="slider-thumb">
@@ -23,7 +43,7 @@
                     <div class="container">
                         <img
                             class="image-mask"
-                            src="https://i.ibb.co/L605mPL/man-with-helmet-working-logistic-fotor-20231016104639.png"
+                            src="person.jpg"
                             alt="Manual work is slow and error prone"
                             width="80%"
                             height="80%"
@@ -66,7 +86,7 @@
   position: absolute;
   content: "";
   left: 51%;
-  top: 17%;
+  top: 18%;
   width: 450px;
   height: 450px;
   background: ;
@@ -101,7 +121,7 @@
   position: absolute;
   content: "";
   left: 60%;
-  top: 14%;
+  top: 15%;
   width: 450px;
   height: 450px;
   background: ;

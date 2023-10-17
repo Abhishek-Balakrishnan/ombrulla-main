@@ -6,6 +6,7 @@ export default {
 		extend: {
 			fontFamily: {
 				'sans': ['Outfit', ...defaultTheme.fontFamily.sans],
+				'albert-sans': ['Albert Sans', 'sans-serif'],
 			  },
 			  colors:{
 				'bodycolor':'#f8fbff',

@@ -18,32 +18,32 @@ const navigation = {
   // ],
   addresses: [
     {
-      country: "United Kingdom",
-      street: "53 Denton close",
-      city: "Redhill",
-      state: "Surrey",
-      postalCode: "RH1 5LB",
+      country: "United Kingdom,53 Denton close",
+      // street: "53 Denton close",
+      city: "Redhill,Surrey,RH1 5LB",
+      // state: "Surrey",
+      // postalCode: "RH1 5LB",
       phone: "+44 787 999 3892",
       href:"#"
     },
     {
-      country: "Germany",
-      street: "Schützenstraße 51A",
-      city: "Lübeck",
+      country: "Germany,Schützenstraße 51A",
+      // street: "Schützenstraße 51A",
+      city: "Lübeck,23558",
       state: null,
-      postalCode: "23558",
+      // postalCode: "23558",
       phone: "+49 179 512 5812",
       href:"#"
     },
-    // {
-    //   country: "India",
-    //   street: "No. 154/20, Royal Space, Third Floor TI, 5th Main, HSR Layout 7th Sector",
-    //   city: "Bangalore",
-    //   state: "Karnataka",
-    //   postalCode: "560102",
-    //   phone: null,
-    //   href:"#"
-    // }
+    {
+      country: "India",
+      street: "No. 154/20, Royal Space, Third Floor TI, 5th Main, HSR Layout 7th Sector",
+      city: "Bangalore",
+      state: "Karnataka",
+      postalCode: "560102",
+      phone: null,
+      href:"#"
+    }
   ],
 
   
@@ -176,7 +176,7 @@ export default function Example() {
                  
                 </div>
     
-                <div className=" md:gap-8">
+                <div className=" md:gap-12">
                   <div>
                     <h3 className="leading-7	 font-medium	text-2xl text-white">Reach Us</h3>
                     <ul role="list" className="mt-6 space-y-4">

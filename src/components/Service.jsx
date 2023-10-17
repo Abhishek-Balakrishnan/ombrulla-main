@@ -6,7 +6,7 @@ const incentives = [
   },
   {
     name: 'Compensation Management',
-    imageSrc: 'comp-man.png',
+    imageSrc: 'Comp360.png',
     description: "Software systems used by HR departments to streamline and automate the processes related to employee compensation, including salary planning, bonuses, benefits, and overall compensation strategy management.",
   },
   // {
@@ -42,10 +42,10 @@ retain, and engage top talent <br /><br /> <br /></p>
                   </div>
                 </div>
               {incentives.map((incentive) => (
-                <div key={incentive.name} className="bg-[#eff1f5]	h-[65vh] ml-5 w-96 p-10 gap- rounded-2xl	  sm:flex sm:text-left lg:block ">
+                <div key={incentive.name} className="bg-[#eff1f5]	h-[65vh] ml-5 w-96 p-9 gap- rounded-2xl	  sm:flex sm:text-left lg:block ">
                   <div className="sm:flex-shrink-0 ml-">
                     <div className="flow-root ">
-                      <h3 className="text-base	 font-medium ">{incentive.name}</h3>
+                      <h4 className="	 font-medium font-sans text-2xl	 leading-8	 ">{incentive.name}</h4>
                     </div>
                   </div>
                   <div className="mt-3 sm:mt-0 sm:ml-6 lg:mt-6 lg:ml-">
@@ -53,11 +53,11 @@ retain, and engage top talent <br /><br /> <br /></p>
                     {/* <p className="mt-2 text-sm text-gray-500"></p> */}
                   </div>
                   <div>
-                  <p className="mt-2 text-base	leading-6	 text-gray-500 ">{incentive.description}</p>
+                  <p className="mt-2 text-base	leading-7	 text-gray-500 ">{incentive.description}</p>
                   </div>
-                  <div className="w-[9.5rem] ml-[25%]"><img src={incentive.imageSrc} alt="" className="" /></div>
+                  <div className="w-[9.5rem]  ml-[25%]"><img src={incentive.imageSrc} alt="" className={incentive.imageSrc === "Comp360.png" ? "mt-11 mb-10" : ""}/></div>
                   <button
-            class="bg-[#fffff] hover:bg-black text-primary   font-sans  ml-[30%] font-bold hover:text-white py-2 px-4 border  hover:border-secoondary rounded-full	 w-30"
+            class="bg-[#0000FF] hover:bg-black text-white   font-sans  ml-[30%] font-bold hover:text-white py-2 px-4 border  hover:border-secoondary rounded-full	 w-30"
         >
             Free Trail
         </button>

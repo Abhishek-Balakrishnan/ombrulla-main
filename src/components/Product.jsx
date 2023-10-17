@@ -27,35 +27,37 @@ export default function Example() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-lg font-semibold leading-8 tracking-tight text-white">PErformance - TRacking - ANalytics
+             <div class="w-3/12 h-24 overflow-hidden mr-2	 "> <img src="Petran-logo-2.png" alt=""  /></div>
+              <h2 className="text-lg font-semibold leading-8 tracking-tight text-white"><span class="text-[#e35106] font-bold">PE</span>rformance - <span class="text-[#e35106] font-bold">TR</span>acking - <span class="text-[#e35106] font-bold">AN</span>alytics
 </h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-white">AI & IoT Enabled Asset Performance Software
 </p>
-              <p className="mt-6 text-lg leading-8 text-white">
+              <p className="mt-6 text-lg leading-8 text-white mb-10">
               An Asset Management system that leverages artificial intelligence and the
 Internet of Things for data-driven decision-making and proactive maintenance
 strategies.
 
               </p>
-            <div class="flex">
-                <div>
-                  <button
+              {/* <div class="flex"> */}
+              <div class="flex ">
+             <div>
+                <button
+                class="bg-transparent leading-5	text-base	 hover:bg- text-white font-sans font-semibold hover:text-black py-2 px-4 border border-white hover:border-secoondary  w-40 h-[3.5rem]"
+                style={{borderRadius:'30px',}}
+            >
+                Schedule Call
+            </button>
+             </div>
+          <div>
+            <button
             type="button"
-            className="inline-flex items-center rounded-full	mt-3 border border-white bg-blue-700 px-6 py-3 text-base font-medium text-white  hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+            class="ml-10 h-[3.5rem] w-[3.5rem]  inline-flex items-center rounded-full border border-white bg- p-3 text-white hover:text-black shadow-sm hover:bg-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
           >
-            <PlayIcon className="-ml-1 mr- h-6 w" aria-hidden="true" />
-            
+            <PlayIcon className="h-7 w-7" aria-hidden="true" />
           </button>
-                </div>
-        <div>
-          <button
-                        type="submit"
-                        className="flex w-26 items-center justify-center rounded-md border border-white bg-transparent py-1.5 px-3 ml-4 mt-4 text-base font-semibold leading-7 text-white hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:text-sm sm:leading-6"
-                      >
-                        Book a demo
-                      </button>
-        </div>
-            </div>
+          </div>
+          <div class="ml-5 font-medium text-white	text-base	font-sans mt-4" >Watch Video</div>
+           </div>
               {/* <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
