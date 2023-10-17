@@ -36,10 +36,10 @@ const navigation = {
       href:"#"
     },
     {
-      country: "India",
-      street: "No. 154/20, Royal Space, Third Floor TI, 5th Main, HSR Layout 7th Sector",
-      city: "Bangalore",
-      state: "Karnataka",
+      country: "India,No. 154/20, Royal Space",
+      street: "Third Floor TI, HSR Layout",
+      city: "Bangalore,Karnataka",
+      // state: "Karnataka",
       postalCode: "560102",
       phone: null,
       href:"#"

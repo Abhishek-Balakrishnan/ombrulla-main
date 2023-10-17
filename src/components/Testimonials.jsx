@@ -63,7 +63,7 @@ export default function Example() {
     <path fill-rule="evenodd" d="M4.5 7.5a3 3 0 013-3h9a3 3 0 013 3v9a3 3 0 01-3 3h-9a3 3 0 01-3-3v-9z" clip-rule="evenodd" />
   </svg>
   
-          <h4 className=" text-base font-medium mt-10 ml-2	">Our Testimonials</h4>
+          <h4 className=" text-base font-medium mt-10 ml-2	">OUR TESTIMONIALS</h4>
     </div>
         <h2 className="font-medium	text-3xl mt-5">What Customer Say About Us</h2>
      </div>
