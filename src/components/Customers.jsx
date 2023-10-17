@@ -11,7 +11,7 @@ export default function Example() {
       <img
         src={`customer-${index + 1}.png`}
         alt={`customer-${index + 1}`}
-        style={{ width: "150px", height: "75px !important" }}
+        style={{ width: "150px",padding:"20px", height: "px !important" }}
       />
     </div>
   ));

@@ -15,16 +15,16 @@ export default function Example() {
         <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
           <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
             <img
-              className="h-16"
+              className="h-16 mt-5"
               src="partner-1.png"
               alt="Workcation"
             />
           </div>
           <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-            <img className="h-24" src="partner-2.png" alt="Mirage" />
+            <img className="h-32" src="partner-2.png" alt="Mirage" />
           </div>
           <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-            <img className="h-16" src="partner-3.png" alt="Tuple" />
+            <img className="h-16 mt-5" src="partner-3.png" alt="Tuple" />
           </div>
           <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
             <img className="h-24" src="partner-4.png" alt="Laravel" />
@@ -38,7 +38,7 @@ export default function Example() {
           </div>
           <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
             <img
-              className="h-16"
+              className="h-16 mt-5"
               src="partner-6.png"
               alt="Statamic"
             />

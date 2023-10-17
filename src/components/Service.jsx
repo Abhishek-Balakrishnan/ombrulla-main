@@ -8,7 +8,7 @@ const incentives = [
   {
     name: 'Compensation Management',
     imageSrc: 'Comp360.png',
-    description: "Software systems used by HR departments to streamline and automate the processes related to employee compensation, including salary planning, bonuses, benefits, and overall compensation strategy management.",
+    description: "Compensation management software automates salary planning, budget management, and equity analysis, ensuring fair and competitive pay practices",
     button:"Book For Demo"
  },
   // {
@@ -43,7 +43,7 @@ export default function Example() {
                   </div>
                 </div>
               {incentives.map((incentive) => (
-                <div key={incentive.name} className="bg-[#eff1f5]	h-[65vh] ml-5 w-96 p-9 gap- rounded-2xl	  sm:flex sm:text-left lg:block ">
+                <div key={incentive.name} className="bg-[#eff1f5]	h-[60vh] ml-5 w-96 p-9 gap- rounded-2xl	  sm:flex sm:text-left lg:block ">
                   <div className="sm:flex-shrink-0 ml-">
                     <div className="flow-root ">
                       <h4 className="	 font-medium font-sans text-2xl	 leading-8	 ">{incentive.name}</h4>

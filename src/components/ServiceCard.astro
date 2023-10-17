@@ -14,7 +14,7 @@ interface Feature {
 
 const { index, title, subTitle, features,imgUrl } = Astro.props;
 const alignment = index % 2 ? `md:flex-row-reverse` : `md:flex-row`;
-const firstImageMargin = index % 2 ? `-ml-10 mt-` : `-mr-5 mt-`;
+const firstImageMargin = index % 2 ? `-ml-10 mt- bg-white` : `-mr-5 mt-`;
 // const secondImageMargin = index % 2 ? `-ml-96` : `-ml-64`;
 ---
 

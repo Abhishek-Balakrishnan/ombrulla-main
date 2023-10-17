@@ -1,48 +1,48 @@
 const posts = [
     {
-      title: 'Boost your conversion rate',
+      title: 'Privacy and security concerns with Artificial Intelligence',
       href: '#',
-      category: { imageUrl: 'https://wptf.themepul.co/tronix/wp-content/uploads/2023/06/blog3.jpg', href: '#', color: 'rounded-lg	' },
+      category: { imageUrl: 'blog-1.webp', href: '#', color: 'rounded-lg	' },
       description:
-        'Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.',
+        'Privacy and security are significant concerns when it comes to AI. AI systems often require access to large amounts of personal data, which can be ...',
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       author: {
         name: 'Paul York',
         href: '#',
         imageUrl:
-          'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYcAGl6MERiuoxTUbPVp0EMaTkxuukfb7WNPGvnJ6wokg8oIvMlKW8WxYo0-bJ9y1chf0&usqp=CAU',
       },
       readingTime: '6 min',
     },
     {
-      title: 'How to use search engine optimization to drive sales',
+      title: 'The impact of AI on jobs and the workforce',
       href: '#',
-      category: {imageUrl: 'https://wptf.themepul.co/tronix/wp-content/uploads/2023/06/1-1.jpg', href: '#', color: 'rounded-lg ' },
+      category: {imageUrl: 'blog-2.webp', href: '#', color: 'rounded-lg ' },
       description:
-        'Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.',
+        'The impact of AI on jobs and the workforce is a topic of much debate and speculation. While some argue that AI will create new job opportunities...',
       date: 'Mar 10, 2020',
       datetime: '2020-03-10',
       author: {
         name: 'Dessie Ryan',
         href: '#',
         imageUrl:
-          'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPUtHzWNQE2FDoDrR_dYBqr-h-k9vO9b1kAA&usqp=CAU',
       },
       readingTime: '4 min',
     },
     {
-      title: 'Improve your customer experience',
+      title: 'Bias and fairness in Artificial Intelligence',
       href: '#',
-      category: { imageUrl: 'https://wptf.themepul.co/tronix/wp-content/uploads/2023/06/22-1.jpg', href: '#', color: 'rounded-lg' },
-      description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab iure iusto fugiat commodi sequi.',
+      category: { imageUrl: 'blog-3.webp', href: '#', color: 'rounded-lg' },
+      description: 'Bias and fairness are important considerations in AI, as they can significantly impact the accuracy and effectiveness of AI systems, as well as the social and ethical implications of their use...',
       date: 'Feb 12, 2020',
       datetime: '2020-02-12',
       author: {
         name: 'Easer Collins',
         href: '#',
         imageUrl:
-          'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+          'https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg',
       },
       readingTime: '11 min',
     },
@@ -74,7 +74,7 @@ const posts = [
               <div key={post.title} className="bg-white p-5 rounded-lg">
                 <div className="inline-block">
   <span className="inline-flex items-center px-3 py-0.5 rounded-lg text-sm font-medium">
-    <div className="w-70 h-60 overflow-hidden rounded-lg">
+    <div className="w- h- overflow-hidden rounded-lg">
       <img src={post.category.imageUrl} alt="" className="w-full h-full object-cover" />
     </div>
   </span>
@@ -87,7 +87,7 @@ const posts = [
                   <div className="flex-shrink-0">
                     <a href={post.author.href}>
                       <span className="sr-only">{post.author.name}</span>
-                      <img className="h-10 w-10 rounded-full" src={post.author.imageUrl} alt="" />
+                      <img className="h-10 w-15 rounded-full" src={post.author.imageUrl} alt="" />
                     </a>
                   </div>
                   <div className="ml-3">
