@@ -1,0 +1,84 @@
+---
+import Blog from "../components/Blog";
+import BusinessBenfits from "../components/BusinessBenfits";
+import CallToAction from "../components/CallToAction";
+import Footer from "../components/Footer";
+import Menu from "../components/Menu.astro";
+import ServiceBanner from "../components/ServiceBanner";
+import ServiceCard from "../components/ServiceCard.astro";
+import ViExamples from "../components/ViExamples";
+import Layout from "../layouts/Layout.astro";
+const services = [
+	{
+		title: "Enhances Efficiency, Safety, and Cost-Effectiveness.",
+		subTitle: "AI INFRASTRUCTURE INSPECTION ",
+		imgUrl:"infrastructure.jpeg",
+		features: [
+			{
+				feature: "Cutting-Edge Solution",
+				details:
+					"Ombrulla leverages AI, drones, and IoT technologies to transform infrastructure inspection.",
+			},
+			{
+				feature: "Real-Time Insights",
+				details:
+					"Real-time insights enhance inspection efficiency, safety, and reduce conventional challenges",
+			},
+			{
+				feature: "Longevity and Cost-Effectiveness",
+				details:
+					"Ombrulla ensures the longevity and safety of critical infrastructure while offering a cost-effective solution.",
+			},
+			{
+				feature: "Responsive Maintenance",
+				details:
+					"Embracing Ombrulla enhances infrastructure management, increasing reliability and responsiveness, and reducing risks",
+			},
+		],
+	},
+	// {
+	// 	title: "Improving  quality  with greater  precision.",
+	// 	subTitle: "AI VISUAL INSPECTION",
+	// 	imgUrl:"analatics.jpeg",
+	// 	features: [
+	// 		{
+	// 			feature: "Automated Defect Detection",
+	// 			details:
+	// 				"Automated visual inspection in manufacturing uses computer vision and machine learning to identify defects autonomously.",
+	// 		},
+	// 		{
+	// 			feature: "Advanced Image Processing",
+	// 			details:
+	// 				"It captures and enhances digital images for relevant feature extraction",
+	// 		},
+	// 		{
+	// 			feature: "Informed Decision-Making",
+	// 			details:
+	// 				"The system classifies defects, aiding manufacturers in quality control decisions",
+	// 		},
+	// 		{
+	// 			feature: "Real-Time Quality Assurance",
+	// 			details:
+	// 				"Integration with manufacturing enables real-time quality control, reducing substandard product risks",
+	// 		},
+	// 	],
+	// },
+	
+];
+
+---
+
+
+<Layout>
+    <div class="grid row-auto h-screen">
+        <div>
+            <div><Menu/> </div>
+            <div><ServiceBanner/></div>
+            {services.map((d, i) => <ServiceCard index={i} {...d} />)}
+            <div><ViExamples/></div>
+            <div><CallToAction/></div>
+            <div><BusinessBenfits/></div>
+            <div><Footer/></div>
+        </div>
+    </div>
+</Layout>

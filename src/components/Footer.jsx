@@ -123,8 +123,7 @@ export default function Example() {
           <div className="space-y-8 ">
             <h3 className="leading-7	 font-medium	text-2xl	text-white	">About Us</h3>
             <p className="text-base	font-normal	 leading-7">
-            The majority of customers lack data-driven insights and automation. Using AI, Ombrulla assist clients in extracting data from diverse sources such as photos, videos, and data lakes, which can assist businesses in making data-driven insights and improving their bottom line
-
+            Ombrulla is an AI-driven company specializing in extracting insights from diverse data sources, including photos, videos, and data lakes. Our tailored solutions help businesses make data-driven decisions and improve their bottom line through automation and AI-powered analysis.
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
