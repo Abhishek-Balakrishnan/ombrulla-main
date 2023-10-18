@@ -5,8 +5,8 @@ import { PlayIcon } from "@heroicons/react/20/solid";
 
 <!-- import { PlayIcon } from '@heroicons/react/24/solid'; -->
 
-<div class="h-[90vh]">
-    <div class="flex justify-between grid-col-2 h-full items-center">
+<div class="h-[90vh] lgradient">
+    <div class="flex justify-between grid-col-2 h-full items-center px-[6vw]">
         <div class="w-1/2 gap-y-10">
             <h4 class="text-6xl font-sans font-semibold w-[28.25rem] leading-[1.2]		">
                 Manual Inspection is 
@@ -56,6 +56,13 @@ import { PlayIcon } from "@heroicons/react/20/solid";
 </div>
 
 <style>
+    .lgradient {
+    background: linear-gradient(to  left ,  #cfd9ff, #ffffff);
+    position: relative;
+    z-index: 50;
+    /* height: 100vh;
+    width: 100vw; */
+  }
     img {
         max-width: 100%;
         display: block;
@@ -86,7 +93,7 @@ import { PlayIcon } from "@heroicons/react/20/solid";
   position: absolute;
   content: "";
   left: 51%;
-  top: 18%;
+  top: 6%;
   width: 450px;
   height: 450px;
   background: ;
@@ -121,11 +128,11 @@ import { PlayIcon } from "@heroicons/react/20/solid";
   position: absolute;
   content: "";
   left: 60%;
-  top: 15%;
+  top: 6%;
   width: 450px;
   height: 450px;
   background: ;
-  border: 2px solid rgb(252, 252, 252);
+  border: 2px solid rgb(255, 255, 255);
   border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
   will-change: border-radius, transform, opacity;
   animation: sliderShape 5s linear infinite;

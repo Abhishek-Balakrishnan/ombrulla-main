@@ -13,7 +13,7 @@ interface Feature {
 }
 
 const { index, title, subTitle, features,imgUrl } = Astro.props;
-const alignment = index % 2 ? `md:flex-row-reverse` : `md:flex-row`;
+const alignment = index % 2 ? `md:flex-row-reverse ` : `md:flex-row linear-gradient h-screen `;
 const firstImageMargin = index % 2 ? `-ml-10 mt- bg-white` : `-mr-5 mt-`;
 // const secondImageMargin = index % 2 ? `-ml-96` : `-ml-64`;
 ---
@@ -66,3 +66,10 @@ const firstImageMargin = index % 2 ? `-ml-10 mt- bg-white` : `-mr-5 mt-`;
         </div> -->
     </div>
 </div>
+<style>
+ .linear-gradient {
+    background: linear-gradient(to bottom , #ffffff, #ecf0fe, #ffffff);
+    height: 100vh;
+    width: 100vw;
+  }
+</style>

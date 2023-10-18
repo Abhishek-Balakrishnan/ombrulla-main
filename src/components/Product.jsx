@@ -30,8 +30,10 @@ export default function Example() {
              <div class="w-3/12 h-24 overflow-hidden mr-2	 "> <img src="Petran-logo-2.png" alt=""  /></div>
               <h2 className="text-lg font-semibold leading-8 tracking-tight text-white"><span class="text-[#e35106] font-bold">PE</span>rformance - <span class="text-[#e35106] font-bold">TR</span>acking - <span class="text-[#e35106] font-bold">AN</span>alytics
 </h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-white">AI & IoT Enabled Asset Performance Management
-</p>
+              <div className="flex flex-col mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-white">
+                <span className=''>AI & IoT Enabled</span> 
+                <span className='font-semibold text-4xl'>Asset Performance Management</span>
+              </div>
               <p className="mt-6 text-lg leading-8 text-white mb-10">
               Petran offers an Asset Performance Management (APM) system that harnesses the power of artificial intelligence and the Internet of Things (IoT) to empower data-driven decision-making and enable proactive maintenance strategies.
 
